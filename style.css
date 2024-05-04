@@ -1,0 +1,69 @@
+/* //import digital- 7 fonts  */
+@font-face {
+    font-family:digital-7 ;
+    src: url(digital_7/digital-7\ \(mono\).ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family:digital-7 ;
+}
+body{
+    background-color: #0c78f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.watchContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 20rem;
+    background-color: #635252;
+}
+.displayContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45rem;
+    height: 15rem;
+    background-color: #0f7c80;
+}
+p{
+    padding: .7rem;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.488);
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+#timesec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
+}
+#timesec p{
+    font-size: 5rem;
+    color: rgba(0, 0, 0, 0.741);
+}
+.completeDate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#amPm{
+    font-size: 2rem !important;
+    color: #0c0505 !important;
+}
+.current-month {
+    color: rgba(0, 0, 0, 0.821);
+
+  }
+  #month{
+    color: #0702026e;
+  }
+  
